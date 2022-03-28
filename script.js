@@ -46,7 +46,33 @@ function game() {
     let playerScore = 0, computerScore = 0;
     for (let i = 0; i < 5; i++) {
         let playerChoice = readline.question("Choose your weapon: Rock, Paper, or Scissors!: ");
-        console.log(playRound(playerChoice, computerPlay()));
+        let result = playRound(playerChoice, computerPlay());
+        let winner = result.substring(4,7);
+        switch (winner) {
+            case "win":
+                playerScore++;
+                break;
+            case "los":
+                computerScore++;
+                break;
+            case "tie":
+                break;
+        }
+        if(result == "unknown round...") {
+            console.log("Incorrect input. Try again...");
+            i--;
+        }
+        else if (i !== 4) {
+            console.log(`\n${result}`);
+            console.log(`\nScores:\tYou: ${playerScore}\tComputer: ${computerScore}\n`);
+        }
+        else {
+            console.log(`\n${result}`);
+            console.log(`\nFinal Scores:\tYou: ${playerScore}\tComputer: ${computerScore}\n`);
+            if(playerScore > computerScore) console.log("YOU WIN!!\n");
+            else if(playerScore == computerScore) console.log("YOU TIE!\n");
+            else console.log("You Lose.\n");
+        }
     }
 }
 
