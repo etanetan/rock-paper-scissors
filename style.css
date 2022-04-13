@@ -1,5 +1,6 @@
 body {
     background-color: gray;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 #results {
@@ -25,12 +26,10 @@ body {
     margin-right: auto;
     margin-top: 100px;
     font-size: 48px;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 #results {
     font-size: 64px;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
     margin-top: 100px;
 }
@@ -43,7 +42,6 @@ body {
 }
 #restart {
     font-size: 32px;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: gray;
     margin-top: 75px;
 }
