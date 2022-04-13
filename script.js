@@ -55,11 +55,11 @@ function clickChoice(playerSelection) {
     computerScoreText.innerHTML = `Computer: ${computerScore}`;
 
     if (playerScore === 5) {
-        showResults.textContent = 'You won the game!! Reload the page to play another round.';
+        showResults.textContent = 'You won the game!! Play again!';
         return;
     }
     if (computerScore === 5) {
-        showResults.textContent = 'You lost the game. Reload the page to play another round.';
+        showResults.textContent = 'You lost the game. Play again!';
         return;
     }
 }

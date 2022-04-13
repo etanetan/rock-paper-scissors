@@ -13,7 +13,7 @@ body {
     width: 800px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 150px;
+    margin-top: 100px;
 }
 
 .scores {
@@ -23,7 +23,7 @@ body {
     width: 1000px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 150px;
+    margin-top: 100px;
     font-size: 48px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
@@ -34,6 +34,20 @@ body {
     text-align: center;
     margin-top: 100px;
 }
+.container {
+    display: flex;
+    width: 800px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+#restart {
+    font-size: 32px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: gray;
+    margin-top: 75px;
+}
+
 #rock::after {
     content: "\1FAA8";
     font-size: 100px;
