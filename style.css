@@ -1,0 +1,50 @@
+body {
+    background-color: gray;
+}
+
+#results {
+    color: black;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+}
+
+.scores {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    font-size: 48px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#results {
+    font-size: 64px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    margin-top: 100px;
+}
+#rock::after {
+    content: "\1FAA8";
+    font-size: 100px;
+}
+
+#paper::after {
+    content: "\1F4DD";
+    font-size: 100px;
+}
+
+#scissors::after {
+    content: "✂️";
+    font-size: 100px;
+}

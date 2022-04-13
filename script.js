@@ -13,7 +13,7 @@ function playRound(playerSelection, computerSelection) {
     (playerSelection === 'Paper' && computerSelection === 'Rock') ||
     (playerSelection === 'Scissors' && computerSelection === 'Paper')) {
         result = 'player';
-        computerScore++;
+        playerScore++;
     }
     else {
         result = 'tie';
@@ -66,12 +66,12 @@ function clickChoice(playerSelection) {
 
 function resultsUpdated(playerSelection, computerSelection, result) {
     if (result === 'computer') { // computer won this round, display results
-        showResults.innerHTML = `You lose: ${computerSelection} beats ${playerSelection}`;
+        showResults.innerHTML = `You lose: ${computerSelection.toLowerCase()} beats ${playerSelection.toLowerCase()}`;
     }
     else if (result === 'player') { // player won this round, display results
-        showResults.innerHTML = `You win: ${playerSelection} beats ${computerSelection}`;
+        showResults.innerHTML = `You win: ${playerSelection.toLowerCase()} beats ${computerSelection.toLowerCase()}`;
     }
     else {
-        showResults.innerHTML = `${playerSelection} ties ${computerSelection}`;
+        showResults.innerHTML = `You tie: ${playerSelection.toLowerCase()} ties ${computerSelection.toLowerCase()}`;
     }
 }
