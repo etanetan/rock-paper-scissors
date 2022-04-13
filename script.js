@@ -40,11 +40,11 @@ scissorsButton.addEventListener('click', () => clickChoice('Scissors'));
 
 function clickChoice(playerSelection) {
     if (playerScore === 5) {
-        showResults.textContent = 'You WIN!!';
+        showResults.textContent = 'You won the game!! Play again!';
         return;
     }
     if (computerScore === 5) {
-        showResults.textContent = 'You Lose.';
+        showResults.textContent = 'You lost the game. Play again!';
         return;
     }
 
