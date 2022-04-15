@@ -1,1 +1,1 @@
-# A rock paper scissors game that uses an integration of HTML, CSS, and Javascript.
+# A rock paper scissors game that uses an combination of HTML, CSS, and JavaScript to allow a user to interact with a webpage.
