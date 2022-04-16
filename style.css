@@ -1,3 +1,5 @@
+/* auto margin is used for left and right in order to place all of the elements in the middle of the page horizontally */
+
 body {
     background-color: gray;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -7,6 +9,8 @@ body {
     color: black;
 }
 
+/* have the buttons displayed below both the results text and the scores for the player and the compouter */
+/* have space around so there is room between the symbols and they aren't too far apart */
 .buttons {
     display: flex;
     justify-content: space-around;
@@ -17,6 +21,8 @@ body {
     margin-top: 100px;
 }
 
+/* have space between the scores so they are on opposite sides of the screen */
+/* place the scores in between the symbols and the results text (vertically speaking) */
 .scores {
     display: flex;
     justify-content: space-between;
@@ -28,11 +34,14 @@ body {
     font-size: 48px;
 }
 
+/* had larger text so the user can clearly see the results of each round played. had a top margin to have space between the top of the webpage */
 #results {
     font-size: 64px;
     text-align: center;
     margin-top: 100px;
 }
+
+/* container to hold the restart button, below the symbols and centered horizontally */
 .container {
     display: flex;
     width: 800px;
@@ -46,6 +55,7 @@ body {
     margin-top: 75px;
 }
 
+/* the ::after feature allows me to input an emoji in unicode into the webpage in the div of rock, paper, and scissors in the HTML */
 #rock::after {
     content: "\1FAA8";
     font-size: 100px;
