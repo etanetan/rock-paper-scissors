@@ -1,6 +1,8 @@
 # Rock Paper Scissors
 
-<a href="https://www.theodinproject.com">Live Demo</a>
+<img width="1440" alt="rockpaperscissorspic" src="https://user-images.githubusercontent.com/56983817/167003835-4c4c8a49-d28c-403d-80b8-ccdbf6de2ffa.png">
+
+<a href="http://etanetan.github.io/rock-paper-scissors/">Live Demo</a>
 
 This project was done through <a href="https://www.theodinproject.com">The Odin Project</a>
 
