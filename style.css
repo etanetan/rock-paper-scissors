@@ -53,6 +53,7 @@ body {
     font-size: 32px;
     background-color: gray;
     margin-top: 75px;
+    border: none;
 }
 
 /* the ::after feature allows me to input an emoji in unicode into the webpage in the div of rock, paper, and scissors in the HTML */
